@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: encurtador        
+    data:
+        mongodb:
+            uri: mongodb://admin:123@localhost/shortenerdb?authSource=admin
+            authentication-database: admin
+            auto-index-creation: true
+            port: 27017
